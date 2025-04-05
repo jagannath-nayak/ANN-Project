@@ -10,7 +10,7 @@ word_index = imdb.get_word_index()
 reverse_word_index = {value : key for key, value in word_index.items()}
 
 # load the model
-model = load_model('simple_rnn_model.h5')
+model = load_model("C:\Users\ASUS\Desktop\ANN Project\SimpleRNN\simple_rnn_model.h5")
 
 # Helper function
 # Function to decode reviews
